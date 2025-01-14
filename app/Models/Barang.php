@@ -10,7 +10,7 @@ class Barang extends Model
 {
     use Hasfactory;
 
-    protected #table = 'barang';
-    protected $guarded = ['id']
+    protected $table = 'barang';
+    protected $guarded = ['id'];
     public $timestamps = false;
 }
